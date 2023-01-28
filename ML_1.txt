@@ -91,10 +91,11 @@ What are types of ML?
         b. Dimensionality Reduction
             Removing extra unwanted colums/dimensions/inputs
         c. Anomoly Detection
-            s
+            Detecting outliers and removing it
         d. Association
-            s
+            
 
     3. Semi-Supervised
+        Partially Supervised & Unsupervised
 
     4. Reinforcement

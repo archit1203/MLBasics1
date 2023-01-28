@@ -1,0 +1,13 @@
+Batch/Offline ML
+    Conventional way to train a ML model
+    All data is used together to train our model
+    No incremental training(not in small groups)
+    Deployed on server once the model is completely trained.
+
+    Problems:
+        Constant retraining
+    
+    Cons:
+        Lots of data
+        H/W limitation
+        Availbility
