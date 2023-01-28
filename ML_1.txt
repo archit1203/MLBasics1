@@ -1,0 +1,100 @@
+What is ML?
+    ML is a field of computer science that uses statistical techniques to give
+    computer ssystems the ability to "learn" with data without being
+    explicitly programmed.
+
+    Explicit Program -> To write a code for all possible scenarios.
+
+    ML-> We've got some data on which we apply some algos on it to find patterns 
+            from training data in order to generate outputs for test data input.
+            Simply we train the machine to work by itself to perfrom a particular task.
+
+            Traditional Programming:
+                         ___________
+            Data    ->  |   Data    | -> Output
+            Program ->  |___________|
+
+            Machine Learning:
+                         ___________
+            Data    ->  |   Data    | -> Program
+            Output  ->  |___________|
+
+In what scenarios ML can be used?
+    1. You cannot write cases for everything.
+    2. Too many cases (e.g. image recognition)
+    3. Data Mining
+
+Why ML only now?
+    ML has been around since a really long time. But it could never become 
+    prominent because ML recquires datta to work on but at that time it was
+    really hard to 
+        -> Gather & Label data was a tedious job
+        -> H/W was not strong enough to run that much amount of data on algos
+    But in the recent times both of these issues has been effectively resolved.
+
+AI vs ML vs DL
+    DL subset ML subset AI
+    Intelligence: It constitutes of many things like:
+        Pattern recognition
+        Creativity & Imagination
+        Emotional Intelligence
+    Most AI stuff currently is towards Pattern recognition
+
+    AI: since 1950s ->  expert systems (80s) only works on closed system and 
+            not fuzzy logic cannot work only on if-else
+        It leverages computers and machines to mimic the problem-solving and 
+            decision-making capabilities of the human mind.
+
+    ML: Machine learning is a branch of artificial intelligence (AI) and 
+        computer science which focuses on the use of data and algorithms to 
+        imitate the way that humans learn, gradually improving its accuracy.
+
+        Better for small data.
+
+    DL: It is a type of machine learning based on artificial neural networks 
+        in which multiple layers of processing are used to extract progressively 
+        higher level features from data.
+
+        It is a class of ML Algos inspired by biological neurons.
+        A big problem with ML is that you need to provide with the features. But
+         DL is capable of creating them on its own. It extracts the features.
+        As we add layers of neurons our efficiency increases.
+
+        ML at one point saturates as we provide the data in terms of efficiency, but 
+         the graph of DL keeps on increasing.
+        
+        Better for large data
+
+What are types of Data?
+    1. Numerical data   
+        eg Age, Weight , marks
+    2. Categorical data
+        eg Gender, Nationality
+
+What are types of ML?
+         (Amount of supervision needed)
+    1. Supervised
+        We have both input & output
+        We need to do prediction for new data based on the patterns learnt from
+            training data.
+        a. Regression
+            Output is numerical
+            eg house price prediction
+        b. Classification
+            Output is Categorical
+            eg weather prediction
+
+    2. Unsupervised
+        We have only input
+        a. Clustering
+            Can divide even n-dimensional hyper space into clusters
+        b. Dimensionality Reduction
+            Removing extra unwanted colums/dimensions/inputs
+        c. Anomoly Detection
+            s
+        d. Association
+            s
+
+    3. Semi-Supervised
+
+    4. Reinforcement
