@@ -3,6 +3,7 @@ Batch/Offline ML
     All data is used together to train our model
     No incremental training(not in small groups)
     Deployed on server once the model is completely trained.
+    Training only done offline
 
     Problems:
         Constant retraining
@@ -11,3 +12,31 @@ Batch/Offline ML
         Lots of data
         H/W limitation
         Availbility
+
+Online ML
+    Incremental training is done 
+        data is feeded in small batches sequentially
+        model improves after every training
+        model is trained online 
+    Both learning and prediction is done on the server
+    eg Chatbots
+
+    When to use what Online learning
+        ->Concept drift
+            When the concept or logic of our mdel is very volatile then Online could be used
+            e.g. stock exchnage, ecom sites
+        ->Cost effective
+            Use online
+        ->Faster Solution
+    
+    Cons
+        ->Tricky
+        ->Risky
+            biasness due to inputs
+            need to make monitoring system
+    
+                Batch                                       Online 
+Complexity      Less complex as model is constant       dynamic complexity as it keeps on evolving
+
+
+s
