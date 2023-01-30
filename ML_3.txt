@@ -1,0 +1,40 @@
+Instance Based learning
+    Instance-based learning refers to a family of techniques for 
+    classification and regression, which produce a class label/predication 
+    based on the similarity of the query to its nearest neighbor(s) in the 
+    training set.
+    
+    It is called instance-based because it builds the hypotheses from the 
+    training instances. It is also known as memory-based learning or 
+    lazy-learning (because they delay processing until a new instance must 
+    be classified).
+
+Model Based learning
+    Model-based learning is the formation and subsequent development of mental 
+    models by a learner. Most often used in the context of dynamic phenomena, 
+    mental models organize information about how  components of systems 
+    interact to produce the dynamic phenomena.
+
+Challenges in ML 
+    Data Collection
+        Gathering data is a difficult task
+    Insufficient Data
+    Labelled Data
+    Poor representation (sampleing noise & Sampeling bias)
+    Poor Quality of data 
+        Many outliers
+        Missing values
+    Irrelevant Features
+    Overfitting
+        Overfitting is a concept in data science, which occurs when a statistical 
+        model fits exactly against its training data. When this happens, the 
+        algorithm unfortunately cannot perform accurately against unseen data, 
+        defeating its purpose.
+    Underfitting
+        Underfitting is a scenario in data science where a data model is unable to 
+        capture the relationship between the input and output variables accurately, 
+        generating a high error rate on both the training set and unseen data.
+    Software Integration
+        Too many platforms and not all are ready
+    Deployment
+    
