@@ -40,4 +40,8 @@ Challenges in ML
     Cost Involved
 
 Applications of Machine Learning
-    
+    Ecommerce
+    Banking & Finance
+    Transport (Ola)
+    Manufacturing (Tesla)
+    Social Media

@@ -1,0 +1,83 @@
+Machine Learning Development Life Cycle
+    1. Frame the problem
+        Decide what exactly is the problem, cost, cutomers, end product, type of
+        model , algos, data
+    
+    2. Gathering the data
+        Gathering the relevant data
+            CSV, API, Web Scrapping, Data warehousing
+    
+    3. Data Preprocessing
+        Unclean data when comes from outside
+        Remove dulicates, missing values, outliers
+        Scale Standardisation
+
+    4. Exploratory Data Analysis (EDA)    
+        We analyse our data here
+        We try to study the relationship b/w input and output
+        We need to know what is there in our data
+        We do 
+            -> visualisation
+            -> We do independant analysis on all the columns (univariate analysis/bivariate)
+                Outlier detection
+                Imbalenced dataset
+    5. Feature Engineering and selection
+        Sometimes we create some new columns to make our analysis easy
+        Selecting relevant features
+
+    6. Model Training, Evaluation & Selection
+        Once we're sure about our data, now we are ready to train our model
+        We apply multple algos and evaluate their results to finalisse which
+            model to use based on performance matrix
+    
+    7. Model Deployment
+        The models can be deployed on the cloud and local server, web browser, 
+        package as software, and edge device. After that, you can use API, web app, 
+        plugins, or dashboard to access the predictions. 
+
+    8. Testing
+        Beta Testing
+        Feedback on model
+    
+    9. Optimize
+        Optimizing our model to best version
+
+
+Data Science Job Roles
+    angelList -> angel.co 
+
+    Data Scientist
+        Does predictive modelling
+
+    Data Analyst
+        Cleansing and rganising raw data
+        Creating data visualisation
+        Optimizing data collection procedures
+
+        Skills:     ->Statistical Programming
+                    ->R/SAS/Python
+                    ->Data mining, Cleaning
+                    ->Data visualisation
+                    ->SQL
+                    ->Advanced Excel
+    Data Engineer
+        Scrape data from sources
+        Build data pipelines for easy access
+        Handeling DB 
+
+        Skills:     ->Strong DSA 
+                    ->Java/R/Python/Scala
+                    ->Advanced DBMS
+                    ->Big Data
+                    ->Cloud Platforms
+                    ->Distributed Systems
+    ML Engineer 
+        Deploying ML models
+        Scaling and Optimizing model
+        monitoring and maintaince
+
+        Skills:     ->Mathematics
+                    ->R/Python/Java/Scala
+                    ->Distributed Systems
+                    ->Data Model & Evaluation
+                    ->ML models
