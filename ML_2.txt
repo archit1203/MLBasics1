@@ -37,6 +37,7 @@ Online ML
     
                 Batch                                       Online 
 Complexity      Less complex as model is constant       dynamic complexity as it keeps on evolving
-
-
-s
+Comp. Power     Fewer                                   continous data input, so comp.is high
+Implement       Easy                                    Difficult
+eg              Image recogition, pattern is const.     Finance, Econ, health where pattern keeps changing
+Tools           Sci-kit,TensorFlow                      MOA, scikit-multiflow
