@@ -37,4 +37,7 @@ Challenges in ML
     Software Integration
         Too many platforms and not all are ready
     Deployment
+    Cost Involved
+
+Applications of Machine Learning
     
