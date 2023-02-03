@@ -1,2 +1,59 @@
 Tensors
     It is basically a data structure
+    It is a container  for number
+    0D->Scalars
+        No of dimensions = 0
+    1D-> vector
+        No of dimensions = 1
+        [1,2,3,4]
+            |-> no do dimensions of vector = 4
+        [1,2]
+            |-> 1d vector of vector dimension 2
+        1 d array
+        n.dim=1
+        axis=1
+    2D-> Matrix
+        No of dimensions = 2
+        Collection  of vectors
+        axis=2
+
+NO OF AXIS = RANK = DIMENSION
+Shape = no of items
+
+
+1D Tensor:
+    [Name, CGPA, State, Placement]
+    1D Tensor
+    4D dimension vector
+
+2D Tensor:
+    ->10000 entries
+    |[Name, CGPA, State, Placement]|
+    |[Name, CGPA, State, Placement]|
+    |[Name, CGPA, State, Placement]|
+    |[Name, CGPA, State, Placement]|
+
+3D Tensor:
+    NLP
+    [[[1,0,1],[1,0,1]]
+     [[1,0,1],[1,0,1]]
+     [[1,0,1],[1,0,1]]
+     [[1,0,1],[1,0,1]]]
+     3D Tensor
+     Shape-> (4,2,3)
+
+4D Tensors:
+    Images
+    CSV
+    RGB Pixel sheets
+    1 image-> (3,1200,800)
+    50 Images-> (50,3,1200,800)
+
+4D Tensors:
+    Collection of videos
+    videos->fast moving imaghes 
+          ->Collection of frames
+    60 sec video, 30fps, 480p (480x720)3channels
+    (1800,480,720,3) -> 4 video clips
+    (4,1800,480,720,3) -> 7464960000 items -> 27.89 GB space
+
